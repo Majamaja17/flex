@@ -1,0 +1,58 @@
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.inline-flex-container {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+
+.vertical-container {
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-between;
+}
+
+.header .nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto {
+	display: flex;
+	height: 400px;
+	width: 400px;
+	justify-content: space-around;
+}
+
+.cards {
+	min-height: 200px;
+	min-width: 200px;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+	margin: 20px;
+}
+
+.cards p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.section_3 {
+	flex-grow: 2;
+	display: flex;
+}
